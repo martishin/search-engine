@@ -1,4 +1,4 @@
-# Search engine
+# Search Engine
 
 On-disk full-text search engine written in Go. It consists of two main components:
 
