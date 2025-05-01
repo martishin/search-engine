@@ -10,12 +10,12 @@ It is designed with modularity in mind, splitting functionality into separate in
 
 ## Features
 
-- **Recursive File Indexing**: Walk through a directory tree and process every file (excluding directories).
-- **Tokenization and Filtering**: Tokenizes file content using a simple space-based tokenizer, converts tokens to lower-case, and applies a simple stemming filter.
-- **Inverted Index**: Builds an inverted index mapping tokens to their occurrences (including document name, row number, and token position within the line).
-- **Concurrent Processing**: Uses goroutines and synchronization primitives to load files in parallel.
-- **Cancellable Indexing**: The indexing process can be cancelled via a context (e.g., after a timeout).
-- **Interactive Query Mode**: Run queries interactively from the command line.
+- **Recursive File Indexing**: Walk through a directory tree and process every file (excluding directories)
+- **Tokenization and Filtering**: Tokenizes file content using a simple space-based tokenizer, converts tokens to lower-case, and applies a simple stemming filter
+- **Inverted Index**: Builds an inverted index mapping tokens to their occurrences (including document name, row number, and token position within the line)
+- **Concurrent Processing**: Uses goroutines and synchronization primitives to load files in parallel
+- **Cancellable Indexing**: The indexing process can be cancelled via a context (e.g., after a timeout)
+- **Interactive Query Mode**: Run queries interactively from the command line
 
 ## Usage
 
